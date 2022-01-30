@@ -1,0 +1,608 @@
+{
+    "id": "9f51f593-1f7a-4925-b510-6b802713e43a",
+    "type": "training",
+    "app_id": "com.nike.ntc.brand.droid",
+    "start_epoch_ms": 1587820091944,
+    "end_epoch_ms": 1587821153936,
+    "last_modified": 1587821203550,
+    "active_duration_ms": 900000,
+    "session": false,
+    "delete_indicator": false,
+    "summaries": [
+        {
+            "metric": "nikefuel",
+            "summary": "mean",
+            "source": "nike.ntc.android",
+            "app_id": "com.nike.ntc.brand.droid",
+            "value": 12.333333333333334
+        },
+        {
+            "metric": "nikefuel",
+            "summary": "total",
+            "source": "nike.ntc.android",
+            "app_id": "com.nike.ntc.brand.droid",
+            "value": 185
+        },
+        {
+            "metric": "calories",
+            "summary": "total",
+            "source": "nike.ntc.android",
+            "app_id": "com.nike.ntc.brand.droid",
+            "value": 40
+        },
+        {
+            "metric": "rpe",
+            "summary": "max",
+            "source": "nike.ntc.android",
+            "app_id": "com.nike.ntc.brand.droid",
+            "value": 4
+        }
+    ],
+    "sources": [
+        "nike.ntc.android"
+    ],
+    "tags": {
+        "com_nike_ntc_location": "home",
+        "com_nike_ntc_workout_benchmark": "false",
+        "com_nike_ntc_workout_duration_sec": "900",
+        "com_nike_ntc_workout_equipment": "none",
+        "com_nike_ntc_workout_estimated_calories": "40",
+        "com_nike_ntc_workout_focus": "strength",
+        "com_nike_ntc_workout_format": "free",
+        "com_nike_ntc_workout_id": "22e384c7-2e79-3171-8f8b-f7ee781f7b3b",
+        "com_nike_ntc_workout_intensity": "low",
+        "com_nike_ntc_workout_level": "beginner",
+        "com_nike_ntc_workout_name": "\u57fa\u672c\u81ea\u91cd\u8bad\u7ec3",
+        "com_nike_ntc_workout_seotag": "Nike",
+        "com_nike_ntc_workout_type": "time based"
+    },
+    "change_tokens": [
+        "59b89eb3080301e000cc4a811e2af44aaf2026d273e6225faea208f34eaa66a4:1587821203550",
+        "e29f466a5c214b8d2e49ad651ce017cc0b7d4ef178717c45281ab1a0478f4887:1587821165507"
+    ],
+    "metric_types": [
+        "rpe",
+        "calories",
+        "nikefuel"
+    ],
+    "metrics": [
+        {
+            "type": "nikefuel",
+            "unit": "FUEL",
+            "source": "nike.ntc.android",
+            "appId": "com.nike.ntc.brand.droid",
+            "values": [
+                {
+                    "start_epoch_ms": 1587820091944,
+                    "end_epoch_ms": 1587821153936,
+                    "value": 185
+                }
+            ]
+        },
+        {
+            "type": "rpe",
+            "unit": "RATING",
+            "source": "nike.ntc.android",
+            "appId": "com.nike.ntc.brand.droid",
+            "values": [
+                {
+                    "start_epoch_ms": 1587820091944,
+                    "end_epoch_ms": 1587821153936,
+                    "value": 4
+                }
+            ]
+        },
+        {
+            "type": "calories",
+            "unit": "KCAL",
+            "source": "nike.ntc.android",
+            "appId": "com.nike.ntc.brand.droid",
+            "values": [
+                {
+                    "start_epoch_ms": 1587820091944,
+                    "end_epoch_ms": 1587821153936,
+                    "value": 40
+                }
+            ]
+        }
+    ],
+    "moments": [
+        {
+            "key": "drill_complete",
+            "value": "8c9c92f1-a859-3cf2-aa30-91c7fdb093ba",
+            "timestamp": 1587820131834,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "8c9c92f1-a859-3cf2-aa30-91c7fdb093ba",
+            "timestamp": 1587820141844,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "5e9afaed-1762-37a3-b040-0f3a77f1a907",
+            "timestamp": 1587820148950,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "8c9c92f1-a859-3cf2-aa30-91c7fdb093ba",
+            "timestamp": 1587820171841,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "8c9c92f1-a859-3cf2-aa30-91c7fdb093ba",
+            "timestamp": 1587820181768,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "5bf2ce1f-3727-3561-807a-a41d7a356c70",
+            "timestamp": 1587820184368,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "8c9c92f1-a859-3cf2-aa30-91c7fdb093ba",
+            "timestamp": 1587820211767,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "8c9c92f1-a859-3cf2-aa30-91c7fdb093ba",
+            "timestamp": 1587820221779,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "6a3ad2c3-bab5-3833-abd9-80a0241f6b97",
+            "timestamp": 1587820232135,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "8c9c92f1-a859-3cf2-aa30-91c7fdb093ba",
+            "timestamp": 1587820271778,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "8c9c92f1-a859-3cf2-aa30-91c7fdb093ba",
+            "timestamp": 1587820281812,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "051b3b32-4178-3724-8afe-b9979ebd1ee9",
+            "timestamp": 1587820295347,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "8c9c92f1-a859-3cf2-aa30-91c7fdb093ba",
+            "timestamp": 1587820331811,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "8c9c92f1-a859-3cf2-aa30-91c7fdb093ba",
+            "timestamp": 1587820333023,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "57a4bee2-a694-365e-9d46-ca406e20cc2b",
+            "timestamp": 1587820401841,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "57a4bee2-a694-365e-9d46-ca406e20cc2b",
+            "timestamp": 1587820411832,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "0dc168dc-66ed-373a-88d6-b375b61cd86c",
+            "timestamp": 1587820429092,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "57a4bee2-a694-365e-9d46-ca406e20cc2b",
+            "timestamp": 1587820494181,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "57a4bee2-a694-365e-9d46-ca406e20cc2b",
+            "timestamp": 1587820504123,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "12f8afe6-8bba-3561-990d-c23f7e8726c2",
+            "timestamp": 1587820509230,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "57a4bee2-a694-365e-9d46-ca406e20cc2b",
+            "timestamp": 1587820564124,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "57a4bee2-a694-365e-9d46-ca406e20cc2b",
+            "timestamp": 1587820703779,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "1d655e2e-7ba6-3391-8856-d29e8961ee8c",
+            "timestamp": 1587820708272,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "57a4bee2-a694-365e-9d46-ca406e20cc2b",
+            "timestamp": 1587820733787,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "57a4bee2-a694-365e-9d46-ca406e20cc2b",
+            "timestamp": 1587820743813,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "f24d2055-f32c-3174-b8d0-0e56871b71ab",
+            "timestamp": 1587820747032,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "57a4bee2-a694-365e-9d46-ca406e20cc2b",
+            "timestamp": 1587820803814,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "57a4bee2-a694-365e-9d46-ca406e20cc2b",
+            "timestamp": 1587820813843,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "735d88e6-e85b-309b-9c9f-89f369e32222",
+            "timestamp": 1587820821030,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "57a4bee2-a694-365e-9d46-ca406e20cc2b",
+            "timestamp": 1587820843843,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "57a4bee2-a694-365e-9d46-ca406e20cc2b",
+            "timestamp": 1587820853874,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "7be0d354-7162-321b-adc9-9807c38b8e39",
+            "timestamp": 1587820857734,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "57a4bee2-a694-365e-9d46-ca406e20cc2b",
+            "timestamp": 1587820913871,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "57a4bee2-a694-365e-9d46-ca406e20cc2b",
+            "timestamp": 1587820923853,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "84529eee-78e9-34d8-a6e2-51d78275b500",
+            "timestamp": 1587820930382,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "57a4bee2-a694-365e-9d46-ca406e20cc2b",
+            "timestamp": 1587820983852,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "57a4bee2-a694-365e-9d46-ca406e20cc2b",
+            "timestamp": 1587820993910,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "6ccebffc-1870-3c08-8a49-b44ae4e952a8",
+            "timestamp": 1587821003652,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "57a4bee2-a694-365e-9d46-ca406e20cc2b",
+            "timestamp": 1587821053910,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "57a4bee2-a694-365e-9d46-ca406e20cc2b",
+            "timestamp": 1587821055102,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_complete",
+            "value": "2e65d54a-c490-3108-8d4c-9e7d32c19001",
+            "timestamp": 1587821153934,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_start",
+            "value": "5e9afaed-1762-37a3-b040-0f3a77f1a907",
+            "timestamp": 1587820141844,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_start",
+            "value": "8c9c92f1-a859-3cf2-aa30-91c7fdb093ba",
+            "timestamp": 1587820148950,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_start",
+            "value": "5bf2ce1f-3727-3561-807a-a41d7a356c70",
+            "timestamp": 1587820181769,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_start",
+            "value": "8c9c92f1-a859-3cf2-aa30-91c7fdb093ba",
+            "timestamp": 1587820184368,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_start",
+            "value": "6a3ad2c3-bab5-3833-abd9-80a0241f6b97",
+            "timestamp": 1587820221779,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_start",
+            "value": "8c9c92f1-a859-3cf2-aa30-91c7fdb093ba",
+            "timestamp": 1587820232135,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_start",
+            "value": "051b3b32-4178-3724-8afe-b9979ebd1ee9",
+            "timestamp": 1587820281812,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_start",
+            "value": "8c9c92f1-a859-3cf2-aa30-91c7fdb093ba",
+            "timestamp": 1587820295347,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_start",
+            "value": "57a4bee2-a694-365e-9d46-ca406e20cc2b",
+            "timestamp": 1587820333023,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_start",
+            "value": "0dc168dc-66ed-373a-88d6-b375b61cd86c",
+            "timestamp": 1587820411833,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_start",
+            "value": "57a4bee2-a694-365e-9d46-ca406e20cc2b",
+            "timestamp": 1587820429092,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_start",
+            "value": "12f8afe6-8bba-3561-990d-c23f7e8726c2",
+            "timestamp": 1587820504123,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_start",
+            "value": "57a4bee2-a694-365e-9d46-ca406e20cc2b",
+            "timestamp": 1587820509230,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_start",
+            "value": "1d655e2e-7ba6-3391-8856-d29e8961ee8c",
+            "timestamp": 1587820703779,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_start",
+            "value": "57a4bee2-a694-365e-9d46-ca406e20cc2b",
+            "timestamp": 1587820708272,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_start",
+            "value": "f24d2055-f32c-3174-b8d0-0e56871b71ab",
+            "timestamp": 1587820743813,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_start",
+            "value": "57a4bee2-a694-365e-9d46-ca406e20cc2b",
+            "timestamp": 1587820747033,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_start",
+            "value": "735d88e6-e85b-309b-9c9f-89f369e32222",
+            "timestamp": 1587820813843,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_start",
+            "value": "57a4bee2-a694-365e-9d46-ca406e20cc2b",
+            "timestamp": 1587820821030,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_start",
+            "value": "7be0d354-7162-321b-adc9-9807c38b8e39",
+            "timestamp": 1587820853874,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_start",
+            "value": "57a4bee2-a694-365e-9d46-ca406e20cc2b",
+            "timestamp": 1587820857734,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_start",
+            "value": "84529eee-78e9-34d8-a6e2-51d78275b500",
+            "timestamp": 1587820923853,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_start",
+            "value": "57a4bee2-a694-365e-9d46-ca406e20cc2b",
+            "timestamp": 1587820930382,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_start",
+            "value": "6ccebffc-1870-3c08-8a49-b44ae4e952a8",
+            "timestamp": 1587820993910,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_start",
+            "value": "57a4bee2-a694-365e-9d46-ca406e20cc2b",
+            "timestamp": 1587821003653,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "drill_start",
+            "value": "2e65d54a-c490-3108-8d4c-9e7d32c19001",
+            "timestamp": 1587821055102,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "halt",
+            "value": "pause",
+            "timestamp": 1587820469457,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "halt",
+            "value": "resume",
+            "timestamp": 1587820491929,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "halt",
+            "value": "pause",
+            "timestamp": 1587820566896,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        },
+        {
+            "key": "halt",
+            "value": "resume",
+            "timestamp": 1587820696530,
+            "app_id": "com.nike.ntc.brand.droid",
+            "source": "nike.ntc.android"
+        }
+    ]
+}
