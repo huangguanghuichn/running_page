@@ -37,19 +37,19 @@ class Track:
         self.start_latlng = []
 
     def load_gpx(self, file_name):
-        print(f"load gpx {file_name}")
         try:
             self.file_names = [os.path.basename(file_name)]
             # Handle empty gpx files
             # (for example, treadmill runs pulled via garmin-connect-export)
-            if not os.path.exists(file_name) or os.path.getsize(file_name) == 0:
+            if os.path.getsize(file_name) == 0:
                 raise TrackLoadError("Empty GPX file")
             with open(file_name, "r") as file:
                 self._load_gpx_data(mod_gpxpy.parse(file))
-        except:
+        except Exception as e:
             print(
                 f"Something went wrong when loading GPX. for file {self.file_names[0]}, we just ignore this file and continue"
             )
+            print(str(e))
             pass
 
     def load_from_db(self, activity):
