@@ -205,7 +205,7 @@ class Track:
             "elapsed_time": datetime.timedelta(
                 seconds=(moving_data.moving_time + moving_data.stopped_time)
             ),
-            "average_speed": moving_data.moving_distance / moving_data.moving_time,
+            "average_speed": moving_data.moving_distance / moving_data.moving_time if moving_data.moving_time else None,
         }
 
     def to_namedtuple(self):
