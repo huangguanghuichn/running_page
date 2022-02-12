@@ -117,7 +117,7 @@ def update_or_create_activity(session, run_activity):
             created = True
         else:
             activity.name = run_activity.name
-            activity.distance = float(run_activity.distance)
+            activity.distance = float(run_activity.distance if hasattr(run_activity, 'distance') else 0)
             activity.moving_time = run_activity.moving_time
             activity.elapsed_time = run_activity.elapsed_time
             activity.type = run_activity.type
