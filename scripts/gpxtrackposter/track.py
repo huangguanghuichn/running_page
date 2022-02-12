@@ -37,6 +37,7 @@ class Track:
         self.start_latlng = []
 
     def load_gpx(self, file_name):
+        print(f"load gpx {file_name}")
         try:
             self.file_names = [os.path.basename(file_name)]
             # Handle empty gpx files
