@@ -94,6 +94,7 @@ def run(refresh_token):
         logger.info(f"Found {len(activities)} new activities")
 
         for activity in activities:
+            print(str(activity))
             # ignore NTC record
             app_id = activity["app_id"]
             activity_id = activity["id"]
