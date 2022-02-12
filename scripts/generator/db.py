@@ -114,6 +114,7 @@ def update_or_create_activity(session, run_activity):
             session.add(activity)
             created = True
         else:
+            print(str(run_activity))
             activity.name = run_activity.name
             activity.distance = float(run_activity.distance)
             activity.moving_time = run_activity.moving_time
@@ -125,7 +126,6 @@ def update_or_create_activity(session, run_activity):
     except Exception as e:
         print(f"something wrong with {run_activity.id}")
         print(str(e))
-        print(str(run_activity))
         pass
 
     return created
