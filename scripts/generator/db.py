@@ -72,11 +72,13 @@ class Activity(Base):
 
 
 def update_or_create_activity(session, run_activity):
+    print(str(run_activity))
     created = False
     try:
         activity = (
             session.query(Activity).filter_by(run_id=int(run_activity.id)).first()
         )
+        print(str(activity))
         if not activity:
             start_point = run_activity.start_latlng
             location_country = getattr(run_activity, "location_country", "")
@@ -115,7 +117,7 @@ def update_or_create_activity(session, run_activity):
             created = True
         else:
             activity.name = run_activity.name
-            activity.distance = float(run_activity.distance if run_activity.distance is None else 0)
+            activity.distance = float(run_activity.distance)
             activity.moving_time = run_activity.moving_time
             activity.elapsed_time = run_activity.elapsed_time
             activity.type = run_activity.type
